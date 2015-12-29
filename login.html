@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<!-- meta使用viewport以确保页面可自由缩放 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- 引入 jQuery Mobile 样式 -->
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/style.css"/>
+
+<!-- 引入 jQuery 库 -->
+<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- 引入 jQuery Mobile 库 -->
+<script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script>
+$(function(){
+	
+	$("a").on("tap",function(){
+	
+		})
+	})
+</script>
+</head>
+<body>
+<!--登陆页面开始-->
+<div data-role="page" id="page_one">
+  <div data-role="main" class="ui-content">
+	<!--<div data-role="controlgroup" data-type="horizontal">
+		<a href="login.html" data-role="button">首页</a>
+		<a href="pas_protect.html" data-role="button">密保</a>
+		<a href="apply_info.html" data-role="button">申请状态</a>
+	</div>-->
+  	<div class="symbolize"></div>
+    <form method="post" action="">
+		<div class="glass_form_div">
+			<label for="user" class="form_lable label_user"></label>
+			<input class="input_pl" type="text" name="user" id="user" placeholder="用户名/手机号">
+		</div>
+		<div class="glass_form_div">
+			<label for="pas" class="form_lable label_pass"></label>
+			<input class="input_pl" type="password" name="pas" id="pas"  placeholder="密码">
+		</div>
+		<div class="glass_form_div">
+			<label for="check" class="form_lable label_check"></label>
+			<input class="input_pl input_check" type="text" name="check" id="check" placeholder="验证码">
+			<span class="check_img">fhgfh</span>
+		</div>
+		<div class="glass_form_div">
+			<!--<input type="button" value="登录">-->
+			<a href="apply_add.html" data-role="button" data-transition="pop">登&nbsp;&nbsp;录</a>
+		</div>
+	</form>
+	<div class="form_else">
+		<a class="forget_pas" href="forgot_pas.html" data-transition="slide">忘记密码？</a>
+		<a class="no_register" href="register.html" data-transition="slide">未注册？</a>
+	</div>
+  </div>
+</div>
+<!--登陆页面结束-->
+
+</body>
+</html>

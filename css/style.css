@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	text-shadow:none;
+	}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: transparent;
+    border-color: #000;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.ui-corner-all {
+	border-radius:0;
+	}
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+    background-color: rgba(255,255,255,0.3);
+    border-color: transparent;
+    color: #fff;
+    text-shadow: none;
+	/*box-shadow:0px 0px 2px #aaa inset;*/
+}
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background-image:url(../images/bg6.jpg) !important;
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+
+.ui-corn-ser-all{
+	border-radius:0px;
+}
+.ui-shadow-inset{
+	box-shadow:none;
+	}
+.glass_form_div{
+	position:relative;
+	margin-top:15px;
+	}
+.form_lable{
+	position:absolute; 
+	left:3px;
+	top:3px;
+	z-index:100;
+	width:31px;
+	height:31px;
+	/*background-color:#1AB7AB;*/
+	}
+.input_pl{
+	padding-left:40px !important;
+	}
+.input_check{
+	width:70% !important;
+	}
+.check_img{
+	position:absolute;
+	/*height:100%;*/
+	width:30%;
+	background-color: #fff;
+	text-align:center;
+	padding-top:8px;
+	padding-bottom:8px;
+	letter-spacing:3px;
+	right:0;
+	text-shadow:none;
+	top:0;
+}
+
+.form_else{
+	position:relative;
+	margin-top:20px;
+	}
+
+.form_else a{
+	font-size:14px !important;
+	color:#eee !important;
+	font-weight:normal !important;
+	text-decoration:none !important;
+	/*margin-top:15px;*/
+	}
+.no_register{
+	position:absolute;
+	right:0;
+	top:0;
+	}
+.h1_trans{
+	opacity:0;
+	}
+.symbolize{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	margin:20px auto !important;
+	background-image:url(../images/person.png);
+	background-size:cover;
+	background-position:center;
+	border:solid 5px rgb(255,255,255);
+	}
+.tips_wrap{
+			width:70%;
+			margin:60px auto;
+			border:solid 1px #eee;
+			border-radius:5px;
+			text-align:center;
+			padding-bottom:10px;
+			background-color:rgba(255,255,255,.5)
+
+			}
+.tips_wrap>div{
+			margin-top:20px;
+			padding-left:10px;
+			padding-right:10px;
+			}
+.line{
+			border-top:solid 1px #eee;
+			padding-top:10px;
+			}
+.line a{
+			
+			margin-left:20px;
+			margin-right:20px;
+			color:#eee !important;
+			text-decoration:none;
+			}
+.deal>h4{
+		text-align:center;
+		border-bottom:solid 1px rgba(255,255,255,.3);
+		padding:10px;
+		color:#eee;
+		}
+.deal p{
+		font-size:14px;
+		color:#eee;
+		text-indent:28px;
+		}
+.hot_tips{
+	font-size:14px;
+	color:#aaa;
+	}
+.label_user{
+	background-image:url(../images/user.png);
+	background-position:center;
+	}
+.label_pass{
+	background-image:url(../images/pass.png);
+	background-position:center;
+	}
+.label_check{
+	background-image:url(../images/check.png);
+	background-position:center;
+	}
+.label_phone{
+	background-image:url(../images/phone.png);
+	background-position:center;
+	}
+.label_question{
+	background-image:url(../images/question.png);
+	background-position:center;
+	}
+.label_answer{
+	background-image:url(../images/answer.png);
+	background-position:center;
+	}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover {
+    background-color: rgba(255,255,255,.3);
+    border-color: transparent;
+    color: #fff;
+    text-shadow: none;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited {
+   /* background-color: transparent;*/
+    border-color: transparent;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+.ui-btn-corner-all, .ui-btn.ui-corner-all, .ui-slider-track.ui-corner-all, .ui-flipswitch.ui-corner-all, .ui-li-count {
+    border-radius: 0px;
+}
+
+.ui-mobile label, div.ui-controlgroup-label {
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
